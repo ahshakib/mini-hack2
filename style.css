@@ -263,7 +263,7 @@ h3:hover{
 /* CGExer-5: starts here */
 
 .bongodev {
-    background-image: url(/assests/bongodev.jpeg);
+    background-image: url(assests/bongodev.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
