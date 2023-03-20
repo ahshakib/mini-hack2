@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    transition: all 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    margin: 20px;
+}
+
+/* CGExer-1: strats here */
+
+.menu {
+    width: 80%;
+    height: 400px;
+    background-color: #edf0f1;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+
+}
+
+.top-nav, .middle-nav, .footer-nav {
+    width: 95%;
+    background-color: #242529;
+    color: #cfd0d2;
+    padding: 8px 12px;
+    margin: auto;
+}
+
+.top-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    /* padding: 5px 20px; */
+    width: 90%;
+}
+.top-nav ul li, .middle-nav ul li, .footer-nav ul li {
+    padding: 10px 20px;
+}
+.top-nav ul li:hover, .middle-nav ul li:hover, .footer-nav ul li:hover, .middle-nav .btn:hover {
+    cursor: pointer;
+    color: white;
+}
+.btn {
+    background-color: #5790a1;
+    border-radius: 20px;
+}
+
+.middle-nav {
+    display: flex;
+    justify-content: center;
+}
+.middle-nav .btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+.middle-nav ul{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+.footer-nav ul{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+/* CGExer-1: ends here */
+
+/* CGExer-2: strats here */
+
+.card{
+    width: 60%;
+    height: 400px;
+    background-color: #edf0f1;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.fb__card{
+    width: 200px;
+    box-shadow: 0px 0px 7px 0px gray;
+    background-color: #ffffff;
+}
+.fb__card img{
+    width: 200px;
+    
+}
+.desc{
+    padding: 10px;
+}
+.sub__desc{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+.sub__desc p{
+    color: #7a7a7a;
+}
+.sub__img img{
+    width: 30px;
+    border-radius: 50%;
+}
+.desc h4{
+    color: #000000;
+    margin-bottom: 8px;
+}
+.desc button{
+    border: none;
+    padding: 12px 20px;
+    background-color: #466fd1;
+    color: #ecf0f2;
+    border-radius: 4px;
+}
+
+.desc button:hover{
+    cursor: pointer;
+}
+
+
+/* CGExer-2: ends here */
+
+/* CGExer-3: starts here */
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 20px;
+}
+
+.youtube {
+    background-color: #212020;
+    width: 55%;
+    color: #f1f1f1;
+    padding: 10px 0;
+    margin: 10px auto;
+}
+.video{
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.img{
+    position: relative;
+}
+.img img{
+    width: 300px;
+}
+.video span{
+    position: absolute;
+    top: 140px;
+    left: 250px;
+    background-color: #0f0f0f;
+    padding: 3px;
+    border-radius: 5px;
+}
+.inner__progress{
+    background-color: #eb3223;
+    width: 60%;
+    height: 5px;
+}
+.inner__progress2{
+    background-color: #eb3223;
+    width: 80%;
+    height: 5px;
+}
+.inner__progress3 {
+    background-color: #eb3223;
+    width: 15%;
+    height: 5px;
+}
+.progress__bar {
+    margin-top: -4px;
+    height: 5px;
+    background-color: #717171;
+}
+
+.video__desc h3 {
+    margin-bottom: 10px;
+}
+
+.video__desc p, .last__desc p{
+    color: #a9a8a8;
+}
+.video__desc p {
+    margin-bottom: 8px;
+}
+.video__desc {
+    margin: 5px 15px;
+}
+.last__desc {
+    display: flex;
+    gap: 8px;
+}
+.dot {
+    margin-top: 8px;
+    width: 3px;
+    height: 3px;
+    background-color: #a9a8a8;
+    border-radius: 50%;
+}
+h3:hover{
+    cursor: pointer;
+}
+
+/* CGExer-3: ends here */
+
+/* CGExer-4: starts here */
+
+.follow {
+    width: 50%;
+    background-color: rgb(244, 243, 243);
+    margin: 10px auto;
+}
+
+.follow__list {
+    display: flex;
+    gap: 15px;
+    overflow: hidden;
+    padding: 20px;
+    justify-content: center;
+}
+
+.follow__img img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.follow__desc {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.follow__desc p{
+    color: #827d7d;
+}
+.follow__list button {
+    background-color: #5b95e5;
+    color: #feffff;
+    height: 50px;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.follow__list button:hover{
+    cursor: pointer;
+}
+
+/* CGExer-4: ends here */
+
+/* CGExer-5: starts here */
+
+.bongodev {
+    background-image: url(/assests/bongodev.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 60%;
+    height: 350px;
+    border-radius: 20px;
+    margin: 20px auto;
+    overflow: hidden;
+
+}
+.bongodev__logo{
+   position: absolute;
+   top: 50px;
+   left: 40%;
+}
+.bongodev__logo img{
+    width: 40%;
+    
+}
+.bongo__bar {
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    background-color: #1e1d1d;
+    margin-top: 240px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.bongo__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-grow: 1;
+}
+
+.bongo__desc2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.bongo__btn {
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: #111010;
+    background-color: #ff6d34;
+    border: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.bongo__btn:hover{
+    cursor: pointer;
+}
+/* CGExer-5: ends here */
